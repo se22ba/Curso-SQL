@@ -903,7 +903,4 @@ END $$
 DELIMITER ;
 
 
--- 3) Final
--- Triggers se crearon al final como en la referencia (evita duplicar stock_movimiento durante la carga).
--- FOREIGN_KEY_CHECKS vuelve a 1 dentro del propio bloque de inserts del usuario.
--- Script completo OK.
+

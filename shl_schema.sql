@@ -1,17 +1,10 @@
--- ===============================================
--- SHL - Creación completa + carga inicial (desde 0, sin parches)
--- Generado: 2025-10-23
--- Requiere MySQL 8+ (ventanas, ROW_NUMBER)
--- ===============================================
 
--- 0) Crear base de datos y seleccionar schema
 CREATE DATABASE IF NOT EXISTS shl_v2
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_unicode_ci;
 USE shl_v2;
 
--- 1) Crear tablas (DDL)
--- Nota: los tipos se ajustaron para soportar los datos del seed.
+
 
 CREATE TABLE tecnico (
   id_tecnico INT PRIMARY KEY,
